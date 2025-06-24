@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Poppins", sans-serif !important;
+}
+
+
+
+.ant-card {
+  margin-bottom: 20px;
+  border: 1px solid #ed1a502e;
+}
+
+/* .ant-layout-sider-children {
+  background: #450022 !important;
+} */
+
+aside.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-has-trigger.css-dev-only-do-not-override-1yacf91 {
+  background: #450022 !important;
+}
+ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark.css-dev-only-do-not-override-1yacf91 {
+  background: transparent;
+}
+li.ant-menu-item {
+  border-bottom: 1px solid #713452;
+  border-radius: 0 !important;
+}
+.ant-layout-sider-trigger {
+  background: #e31c88 !important;
+
+
+}
+ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.ant-menu-inline-collapsed.css-dev-only-do-not-override-1yacf91 {
+  background: transparent;
+}
+li.ant-menu-item.ant-menu-item-selected {
+  background: #e31c88 !important;
+}
+li.ant-menu-item.ant-menu-item {
+  height: 55px;
+  text-transform: uppercase;
+}
+h5.ant-typography.css-dev-only-do-not-override-1yacf91 {
+  padding-top: 0;
+  margin-top: 0;
+  color: #8d8d8d;
+  font-weight: 400;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+h4.ant-typography.css-dev-only-do-not-override-1yacf91 {
+  padding-top: 0px !important;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #532828;
+}
+.icons {
+  font-size: 32px;
+  background: #fff0f8;
+  padding: 0px 15px;
+  color: #ed1a50;
+  border-radius: 6px;
+  border: 1px solid #ed1a5040;
+  height: 60px;
+  box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 6%);
+  display: flex;
+  align-items: center;
+}
+h2.ant-typography.css-dev-only-do-not-override-1yacf91 {
+  text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: "Poppins", sans-serif !important;
+}
+button.ant-btn.css-dev-only-do-not-override-1yacf91.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid {
+  background: #ff0045;
+  padding: 21px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif !important;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+button.ant-btn.css-dev-only-do-not-override-1yacf91.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:hover {
+  background: hsl(30.27deg 49.33% 55.88%);
+  padding: 21px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif !important;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+th.ant-table-cell{
+ 
+  background: #d5d5d5 !important;
+}
+button.ant-btn.css-dev-only-do-not-override-1yacf91.ant-btn-link.ant-btn-color-primary.ant-btn-variant-link {
+  background: #1d8d03;
+  color: #fff;
+}
+td.ant-table-cell {
+  font-family: "Poppins", sans-serif !important;
+}
+
+label{
+  font-family: "Poppins", sans-serif !important;
+}
+input#create-blog_title {
+  height: 50px;
+  /* box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 8%); */
+}
+
+.blog-create h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
+}
+.dashboard h1 {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-weight: 600;
+    
+}
+td.ant-table-cell {
+  border: 1px solid #fc536857;
+}
+.ant-card-body {
+  padding: 0 20px !important;
+}
+main.ant-layout-content.css-dev-only-do-not-override-1yacf91 {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+.ant-layout-content h1{
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.ant-row.ant-row-middle.css-dev-only-do-not-override-1yacf91 {
+  background: #fff5f5;
+  padding: 20px;
+  border: 1px solid #ff008a29;
+  border-radius: 10px;
+}
+span.ant-input-affix-wrapper.css-dev-only-do-not-override-1yacf91.ant-input-outlined{
+  background: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ff004554;
+  font-family: "Poppins", sans-serif !important;
+}
+
+
