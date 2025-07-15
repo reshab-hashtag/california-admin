@@ -72,7 +72,8 @@ const Login = () => {
       }}
     >
    <img 
-          src={`${process.env.REACT_APP_IMAGE_URL}1744262744114-logo.png`} alt="Logo"
+   className='logo-login'
+          src={`${process.env.REACT_APP_IMAGE_URL}15logo07.webp`} alt="Logo"
         />
     </Col>
     <Col xs={24} md={12} style={{ padding: 24 }}>

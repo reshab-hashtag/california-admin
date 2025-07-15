@@ -9,7 +9,7 @@ const AppHeader = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("refreshToken");
-    window.location.href = "/login"; 
+    window.location.href = process.env.REACT_APP_URL; 
   };
 
   return (

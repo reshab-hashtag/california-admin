@@ -19,7 +19,7 @@ const Sidebar = () => {
     <Sider className="admin_sidebar">
       <div style={{ color: "#fff", textAlign: "center", lineHeight: "64px" }}>
         <img 
-          src={`${process.env.REACT_APP_IMAGE_URL}1744262744114-logo.png`} alt="Logo"
+          src={`${process.env.REACT_APP_IMAGE_URL}15logo07.webp`} alt="Logo"
         />
       </div>
       

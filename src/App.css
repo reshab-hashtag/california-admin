@@ -103,7 +103,7 @@ h1 {
 
 
 .admin_sidebar .ant-layout-sider-children img {
-  width: 220px;
+  width: 177px;
   margin: 0 auto;
   display: block;
   text-align: center;
@@ -523,4 +523,11 @@ input {
 }
 .faq_sec_wrap .cssbuttons-io-button{
   margin-top: 20px;
+}
+
+
+.logo-login{
+  height: 5rem;
+   width: auto;
+
 }

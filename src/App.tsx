@@ -25,12 +25,11 @@ import PageFormWithGallery from "./pages/Pages/Common/OurToursImagesPage";
 const AppContent: React.FC = () => {
   const navigate = useNavigate();
   const slug = useParams();
-  console.log("slug", slug);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (!token) {
-      navigate("/");
+      navigate("/admin");
     }
   }, [navigate]);
 
@@ -56,7 +55,7 @@ const AppContent: React.FC = () => {
           <Route path="create" element={<PageCreate />} />
           <Route path="home" element={<HomeTemplate />} />
           <Route path="about" element={<AboutTemplate />} />
-          <Route path=":slug" element={(exception?.includes(fullPath)) ? <PageFormWithGallery title="Edit Page"/> : <PageForm title="Edit Page" />} />
+          <Route path=":slug" element={(exception?.includes(fullPath)) ? <PageFormWithGallery title="Edit Page" /> : <PageForm title="Edit Page" />} />
         </Route>
         <Route path="seo" >
           <Route index element={<SeoList />} />
@@ -74,12 +73,13 @@ const AppContent: React.FC = () => {
 };
 
 const App: React.FC = () => {
-    const base = process.env.NODE_ENV === "production" ? "/admin" : "/";
+  const base =  process.env.REACT_APP_URL;
+  console.log(base)
   return (
     <Router basename={base}>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/*" element={<AppContent />} />
+        <Route path={`/`} element={<Login />} />
+        <Route path={`/*`} element={<AppContent />} />
       </Routes>
     </Router>
   );
