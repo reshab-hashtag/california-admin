@@ -46,7 +46,7 @@ const AppContent: React.FC = () => {
     <AppLayout>
       <Routes>
         <Route path="dashboard" element={<Dashboard />} />
-        <Route path="/account-settings" element={<AccountSettings />} />
+        <Route path="account-settings" element={<AccountSettings />} />
         <Route path="blogs" element={<BlogList />} />
         <Route path="blogs/create" element={<BlogCreate />} />
         <Route path="blogs/edit/:id" element={<BlogEdit />} />
@@ -56,7 +56,7 @@ const AppContent: React.FC = () => {
           <Route path="create" element={<PageCreate />} />
           <Route path="home" element={<HomeTemplate />} />
           <Route path="about" element={<AboutTemplate />} />
-          <Route path=":slug" element={(exception?.includes(fullPath)) ? <PageFormWithGallery title="Edit Page"/> : <PageForm title="Edit Page" />} />
+          <Route path=":slug" element={(exception?.includes(fullPath)) ? <PageFormWithGallery title="Edit Page" /> : <PageForm title="Edit Page" />} />
         </Route>
         <Route path="seo" >
           <Route index element={<SeoList />} />
@@ -74,7 +74,7 @@ const AppContent: React.FC = () => {
 };
 
 const App: React.FC = () => {
-  const base = process.env.REACT_APP_URL || "/";
+  const base = process.env.NODE_ENV === "production" ? "/admin" : "/";
   return (
     <Router basename={base}>
       <Routes>
