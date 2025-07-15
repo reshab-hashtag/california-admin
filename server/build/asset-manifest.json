@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8a9f026.css",
+    "main.js": "/static/js/main.c4270d4f.js",
+    "static/media/wine-bak.jpg": "/static/media/wine-bak.8fb4a2145908751e9f6f.jpg",
+    "index.html": "/index.html",
+    "main.d8a9f026.css.map": "/static/css/main.d8a9f026.css.map",
+    "main.c4270d4f.js.map": "/static/js/main.c4270d4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a9f026.css",
+    "static/js/main.c4270d4f.js"
+  ]
+}
